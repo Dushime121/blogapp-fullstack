@@ -8,15 +8,6 @@ BlogApp is a full-stack blog platform that allows users to sign up, sign in, cre
 - **Create, Read, Update, Delete**: Create, read, and manage blog posts.
 - **REST API**: Backend exposed as a REST API for frontend integration.
 
-## Tech Stack
-
-- **Frontend**: React, Axios, Ant Design
-- **Backend**: Spring Boot, Spring Security, JPA, H2 Database (or your preferred database)
-- **Authentication**: JWT-based or session-based
-- **Styling**: CSS and SCSS for custom styling
-- **Database**: H2 (can be changed to another DB)
-
----
 
 ## Getting Started
 
@@ -37,11 +28,10 @@ Ensure you have the following installed:
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/yourusername/blogapp.git
-    cd blogapp/backend
     ```
 
 2. **Configure Database**:
-   - Open the `src/main/resources/application.properties` file and configure your database credentials if you're using a database like MySQL or PostgreSQL. If you use H2, the default configuration should work.
+   - Open the `src/main/resources/application.properties` file and configure your database credentials if you're using a database like  PostgreSQL.
 
 3. **Build the Backend**:
    - Navigate to the `backend` directory and run:
@@ -64,9 +54,7 @@ Ensure you have the following installed:
 ### Frontend Setup (React)
 
 1. **Navigate to the Frontend Directory**:
-    ```bash
-    cd ../frontend
-    ```
+   
 
 2. **Install Dependencies**:
    - Run the following command to install all the required dependencies:
